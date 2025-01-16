@@ -24,8 +24,8 @@ elif (coding == "0"):
             nwords.append(s1)
         else:
             nwords.append(word[::-1])
-final_message = " ".join(nwords)
-print(final_message)       
+    final_message = " ".join(nwords)
+    print(final_message)       
     
 
 
