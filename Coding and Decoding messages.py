@@ -21,7 +21,6 @@ if (coding == "1"):    # coding block
             new_words.append(msg)
         else:
             new_words.append(word[::-1]) # reverse the word if contains less than 3 letters
-
     final_message = " ".join(new_words)
     print(final_message)
 
